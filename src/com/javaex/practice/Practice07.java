@@ -19,7 +19,7 @@ public class Practice07 {
 				System.out.println("게임을 종료하시겠습니까?(y/n) >>");
 				name= rc.next();
 				System.out.println(name);
-				if(name=="y" || name=="Y") {
+				if("y".equals(name) || "Y".equals(name)) {
 					break;
 				} else {
 					System.out.println("ran");
